@@ -61,9 +61,20 @@ Below is a list of NPCS. If you do contribute to the latent_speaker, please be s
 
 Training your own custom NPCs is really easy, its actually one of the biggest selling points of `XTTS`. 
 
-We'll be using Skyrim to explain. These are the instructions for the current Mantella and XTTS-Mantella-Server version as of time of writting. 
+#### Using Lazy Voice Finder
 
-##### Using Yakitori Audio Converter
+1. Open Lazy Voice Finder
+2. Open the ESP with the voice.
+3. Select a Speaker and a long voiceline that's "calm" and "representative" of their casual conversation.
+4. Right Click -> Copy as WAV
+5. Paste to xtts/speakers/en (or /fr or whatever)
+6. Hit F2 and Rename the WAV to your intended Speaker Name.
+7. Repeat for each voice you want to capture.
+8. Restart XTTS. XTTS will convert the Speaker from WAV to JSON Latent automatically.
+
+#### Using Yakitori Audio Converter
+
+We'll be using Skyrim to explain. These are the instructions for the current Mantella and XTTS-Mantella-Server version as of time of writting. 
 
 1. Find the NPC files of the NPC you want to target, you will need the in-game name of the NPC and its voice `.wav` sound voice files for training. Loose files will have these `.wav` files under `{Mod File}\Sound\Voice\{Mod}.esp\{npc_voicetype}\` in the form of `.fuz` files that must be converted to `.wav`. If your NPC is bundled within a `.bsa` file, use [BAE](https://www.nexusmods.com/skyrimspecialedition/mods/974/) to extract them to loose files.
 2. Download and install [XTTS Mantella API Server](https://www.nexusmods.com/skyrimspecialedition/mods/113445). Make sure to also download the `gradio mantella request test` files which you will use in step 6, and place it inside this XTTS server's folder too.
@@ -77,17 +88,6 @@ We'll be using Skyrim to explain. These are the instructions for the current Man
 7. If you are not happy with the generated sample voice, you may delete the generated `latent_speaker_folder` JSON file. Repeats steps 4-6 until you are happy with your voice samples.
 8. IMPORTANT!! Make sure to test your files locally using a local XTTS within your game. Boot up skyrim and find your NPC, then talk to them using the Mantella spell. 
 9. If everything is fine, you may then finally push your `json` latent files to this repository. Create a pull-request with these files. The file is what was generated in step 5, `latent_speaker_folder\{lang}\{npc_voice_name}.json`.
-
-##### Using Lazy Voice Finder
-
-1. Open Lazy Voice Finder
-2. Open the ESP with the voice.
-3. Select a Speaker and a long voiceline that's "calm" and "representative" of their casual conversation.
-4. Right Click -> Copy as WAV
-5. Paste to xtts/speakers/en (or /fr or whatever)
-6. Hit F2 and Rename the WAV to your intended Speaker Name.
-7. Repeat for each voice you want to capture.
-8. Restart XTTS. XTTS will convert the Speaker from WAV to JSON Latent automatically.
 
 ###### Notes
 
