@@ -52,10 +52,18 @@ Below is a list of NPCS. If you do contribute to the latent_speaker, please be s
 - Jade (Interesting NCPs): https://www.nexusmods.com/skyrimspecialedition/mods/29194
 - Tikrid (Interesting NCPs): https://www.nexusmods.com/skyrimspecialedition/mods/29194
 - Zora Fair-Child (Interesting NCPs): https://www.nexusmods.com/skyrimspecialedition/mods/29194
+- Auri : https://www.nexusmods.com/skyrimspecialedition/mods/1163
+- Inigo : https://www.nexusmods.com/skyrimspecialedition/mods/1461
+- Livia : https://www.nexusmods.com/skyrimspecialedition/mods/33318
+- Remiel : https://www.nexusmods.com/skyrimspecialedition/mods/51874
+- SeranaUnique : https://www.nexusmods.com/skyrimspecialedition/mods/32161
+- Vilja : https://www.nexusmods.com/skyrimspecialedition/mods/6722
 
 #### Skyrim NOTES
 - For Lydia Improved Follower Dialogue, rename the `voice_model` column to `lydia` within your `data\skyrim\skyrim_characters.csv` folder. 
-- For Morgaine, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `morgaine`. 
+- For Morgaine, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `morgaine`.
+- Livia and Vilja are not added yet in skyrim_characters, they will be soon, feel free to add them
+- For SeranaUnique, rename the `voice_model` column to `seranaunique` within your `data\skyrim\skyrim_characters.csv` folder. 
 
 ## Training your own Custom NPCs
 
