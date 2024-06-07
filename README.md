@@ -58,12 +58,21 @@ Below is a list of NPCS. If you do contribute to the latent_speaker, please be s
 - Remiel : https://www.nexusmods.com/skyrimspecialedition/mods/51874
 - SeranaUnique : https://www.nexusmods.com/skyrimspecialedition/mods/32161
 - Vilja : https://www.nexusmods.com/skyrimspecialedition/mods/6722
-
+- Daegon : https://www.nexusmods.com/skyrimspecialedition/mods/112097
+- Thogra Gra-Mugur : https://www.nexusmods.com/skyrimspecialedition/mods/120007
+- Herika : https://www.nexusmods.com/skyrimspecialedition/mods/89931
+- Sa'chil : https://www.nexusmods.com/skyrimspecialedition/mods/106892
+  
 #### Skyrim NOTES
 - For Lydia Improved Follower Dialogue, rename the `voice_model` column to `lydiauniquereworked` within your `data\skyrim\skyrim_characters.csv` folder. 
 - For Morgaine, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `morgaine`.
-- Livia and Vilja are not added yet in skyrim_characters, they will be soon, feel free to add them
-- For SeranaUnique, rename the `voice_model` column to `seranaunique` within your `data\skyrim\skyrim_characters.csv` folder. 
+- Livia, Vilja, Daegon, Thogra, Herika and Sa'chil are not added yet in skyrim_characters, they will be soon, feel free to add them
+- For SeranaUnique, rename the `voice_model` column to `seranaunique` within your `data\skyrim\skyrim_characters.csv` folder.
+- For Daegon, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `Daegonvoice`
+- For Thogra Gra-Mugur, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `Thogra-mugurvoice`
+- For Herika, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `Herikavoice` On the Herika server, under Openai TTS use the Nova voice option.
+- For Sa'chil, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `Sa'chilvoice`
+  
 
 ## Training your own Custom NPCs
 
