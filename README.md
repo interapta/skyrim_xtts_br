@@ -62,6 +62,7 @@ Below is a list of NPCS. If you do contribute to the latent_speaker, please be s
 - Thogra Gra-Mugur : https://www.nexusmods.com/skyrimspecialedition/mods/120007
 - Herika : https://www.nexusmods.com/skyrimspecialedition/mods/89931
 - Sa'chil : https://www.nexusmods.com/skyrimspecialedition/mods/106892
+- Taeka Elixi : https://www.nexusmods.com/skyrimspecialedition/mods/108156
   
 #### Skyrim NOTES
 - For Lydia Improved Follower Dialogue, rename the `voice_model` column to `lydiauniquereworked` within your `data\skyrim\skyrim_characters.csv` folder. 
@@ -72,6 +73,7 @@ Below is a list of NPCS. If you do contribute to the latent_speaker, please be s
 - For Thogra Gra-Mugur, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `Thogramugurvoice`
 - For Herika, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `Herikavoice` On the Herika server, under Openai TTS use the Nova voice option.
 - For Sa'chil, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `Sa'chilvoice`
+- For Taeka Elixi, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `taekaelixivoice`
   
 
 ## Training your own Custom NPCs
