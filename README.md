@@ -78,7 +78,7 @@ Below is a list of NPCS. If you do contribute to the latent_speaker, please be s
 - For Frieren, add her to `data\skyrim\skyrim_characters.csv` folder with the `voice_model` column as `Frierenvoice`
   
 ### Other
-- Brainfrog voices (https://www.youtube.com/@BrainFrogVR/videos) - gruffpole
+- Brainfrog voices (https://www.youtube.com/@BrainFrogVR/videos) - brainfrog, gruffpole
 
 ## Training your own Custom NPCs
 
