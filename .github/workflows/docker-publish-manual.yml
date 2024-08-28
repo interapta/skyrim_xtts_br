@@ -28,7 +28,7 @@ jobs:
       
     env:
       REGISTRY: docker.io
-      IMAGE_NAME: koukidevdocks/xtts-mantella-custom-voices-pack
+      IMAGE_NAME: skyrim_xtts_br/xtts-mantella-custom-voices-pack
       
     steps:
       - name: Check out the repo
