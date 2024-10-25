@@ -24,5 +24,3 @@ RUN pip install deepspeed==0.14.0 transformers==4.28.0
 # Optional: Validate the DeepSpeed installation
 RUN python -c "import deepspeed; deepspeed.ops.op_builder.InferenceBuilder().load()"
 
-# Command to start the application
-CMD ["python", "your_application.py"]
