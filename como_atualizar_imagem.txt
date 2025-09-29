@@ -1,0 +1,11 @@
+Para atualizar imagem no docker. Tenha instalado na maquina o docker desktop
+
+Se nao estiver logado: docker login
+
+Se estiver, abra o prompt de comando na pasta da instalação
+
+comando: docker build -t danielalvesrochad/skyrim_xtts_br:latest .
+
+e depois:
+
+docker push danielalvesrochad/skyrim_xtts_br:latest
